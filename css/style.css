@@ -1,0 +1,88 @@
+:root {
+	--blueColor: #121481;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: blue;
+	border-radius: 10px;
+}
+
+* {
+	text-decoration: none !important;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.bluecolor {
+	background-color: var(--blueColor);
+}
+
+.shadow-md {
+	box-shadow: 0px 10px 20px -8px rgba(0, 0, 0, .2);
+}
+
+.tilana {
+	font-family: 'Tillana', sans-serif;
+}
+
+.oswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+.arrow::after {
+	content: '';
+	position: absolute;
+	border-width: 10px;
+	border-style: solid;
+	top: -20px;
+	right: 15px;
+	border-color: transparent transparent #eaeaea transparent;
+}
+
+.bx-message-dots {
+	cursor: pointer;
+}
+
+.bg-blur {
+	background-color: rgba(255, 255, 255, .2);
+	backdrop-filter: blur(10px);
+}
+
+.control-form:focus ~ label,
+.control-form:valid ~ label {
+	transform: translateY(-28px);
+	background-color: blue;
+	color: white;
+	padding: 0px 8px;
+	border-radius: 5px;
+}
+
+input,
+label {
+	transition: all .3s ease;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 990px) {
+	.container {
+		max-width: 990px;
+	}
+	#toogle {
+		display: none;
+	}
+}
+
+
+
